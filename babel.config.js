@@ -9,7 +9,10 @@ module.exports = {
       {
         root: ['.'],
         extensions: ['.js', '.json', '.jsx', '.ts', '.tsx'],
-        alias: {},
+        alias: {
+          '@core/components': './src/core/components',
+          '@app/pages': './src/app/pages',
+        },
       },
     ],
     'babel-plugin-styled-components',
