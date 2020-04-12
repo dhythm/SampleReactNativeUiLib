@@ -212,3 +212,8 @@ console.tron.log('Welcome to Reactotron')
 
 EOF
 ```
+
+```
+npm install react-native-ui-lib
+npm i react-native-gesture-handler react-native-reanimated @react-native-community/blur @react-native-community/datetimepicker @react-native-community/netinfo
+```
